@@ -1,0 +1,175 @@
+/* universal styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+border: 3px dotted black;
+padding: 10px 10px;
+margin: 20px 20px 
+}
+h1 {
+ display: block;
+ font-size: 28px;
+ text-align: center;
+ background-color: rgb(207, 207, 249)
+}
+ul {
+  padding-left: 30px;
+}
+/* color section*/
+.colors {
+  min-height: 100px;
+  width: 32%;
+ display: inline-block;
+ text-align: center;
+  margin: 10px auto;
+  padding-top: 20px; 
+}
+.light-green {
+  background-color: lightgreen;
+}
+.gold {
+    background-color: gold;
+}
+.turquoise{
+    background-color: turquoise;
+}
+.bisque {
+  background-color: bisque;
+}
+.chocolate {
+  background-color: chocolate;
+}
+.coral {
+  background-color: coral;
+}
+/* fonts section*/
+.PT-serif {
+ font-family: 'PT Serif', serif;
+}
+.Roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.Nautigal {
+  font-family: 'The Nautigal', cursive;
+font-size: 18px;
+}
+.PT-sans {
+  font-family: 'PT Sans', sans-serif;
+}
+#pt-serif-bold {
+  font-weight: 700;
+}
+#roboto-italic {
+  font-style: italic;
+}
+.font {
+  min-height: 150px;
+  width: 47%;
+  display: inline-block;
+  margin: 5px auto;
+}
+/* text style section*/
+.styles {
+  background-color: lightgrey;
+  margin: 5px auto;
+}
+.heading {
+  font-weight: 700;
+  font-size: 28px;
+  font-family:font-family: 'PT Serif',
+}
+.subheading {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+.paragraphs {
+  font-weight: normal;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+  
+}
+.captions {
+font-size: 30px;
+ font-family: 'The Nautigal', cursive;
+ font-weight: bold;
+ color: red;
+}
+.styles h1 {
+background-color: transparent;
+}
+/*button section*/
+.btn {
+  display: flex;;
+}
+button {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  color:white;
+}
+ button:hover {
+   cursor: pointer;
+    box-shadow: 5px 5px;
+    color:black;
+    background-color: lightgreen;
+}
+button:active {
+color: goldenrod;
+box-shadow: 0px 0px;
+}
+.breadcrumb li {
+  list-style: none;
+  float: left;
+}
+.breadcrumb a{
+  color: #fff;
+  background: chocolate;
+  text-decoration: none;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 15px;
+  padding: 0 5px;
+  font-size: 25px;
+}
+.breadcrumb a::before,
+.breadcrumb a::after {
+  content: "";
+  position: absolute;
+  border-color: chocolate;
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+
+  .breadcrumb a::after {
+  left: 100%;
+  border-color: transparent;
+  border-left-color: chocolate;
+}
+
+.breadcrumb a::before {
+  left: -8px;
+  
+border-left-color: transparent;
+}
+.breadcrumb a:hover {
+  background-color: blue;
+}
+.breadcrumb a:hover::before {
+  border-color: blue;
+  border-left-color: transparent;
+}
+.breadcrumb a:hover::after {
+  border-left-color: blue;
+}
